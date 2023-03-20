@@ -1,0 +1,37 @@
+    *{
+        margin: 0; /*para zera a margen de cima e de baixo*/
+        padding: 0;/*para zera a margem da esquerda e da direita*/
+    }
+    body{
+        background-color:hsl(212, 45%, 89%); /*cor do fundo*/
+        display: flex; /*uso obrigatorio para usa as propriedades do flex*/
+        align-items: center; /*para usar a propriedade align-items:; e necessário usar a display: flex;*/
+        height: 100vh; /*para diminuir o tamanho da tela no sentido X vertical usa o height: ; e para usar y orizontal tem que usar o width;:*/
+        font-family:'Outfit', sans-serif; /*tipo de fontes a ser usada, esta disponivel no google fontes*/
+        font-size: 15px; /*tamanho da fonte que eu quero usar*/
+
+    }
+    .logo{
+        background-color: hsl(0, 0%, 100%); /*cor de fundo */
+        padding: 15px; /* margnes*/
+        max-width: 280px; /*orizontal maxima*/
+        margin: 0 auto; /*centralizar vertical, mas dempende do tamanho maximo*/
+        border-radius: 20px; /*aredondamento das bordas*/
+    }
+    .logo img{
+        width: 100%;
+        border-radius: 12px;/*aredondamento das bordas*/
+    }
+    .texto{
+        text-align: center; /* centraliza o texto dentro da div onde ele esta enserido */
+        padding: 18px 12px; /*usar essa propriedade para da espaçamentos sendo o 1° nas laterais e o 2° em cima e em baixo padding: 18px 12px;*/
+    }
+    .texto h2{
+        color: hsl(218, 44%, 22%); /*cor da fonte*/
+        padding-bottom: 18px; /*padding da espaço no que você esta usando/ mas voce pode escolher o lado que você que usar o espaço*/
+
+    }
+    .texto p{
+        color:hsl(220, 15%, 55%);/*cor da fonte*/
+        
+    }
